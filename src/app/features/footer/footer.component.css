@@ -18,14 +18,14 @@
     line-height: 22px;
 }
 .info_foot {
-    background: rgb(11,44,61);
+    background: rgb(104 110 112)
 }
 .info_foot {
     padding: 0 !important;
 }
 .info_foot .min_wrap {
     padding: 25px 0 15px;
-    background: rgb(11,44,61);
+    background: rgb(104 110 112)
 }
 
 .min_wrap {
