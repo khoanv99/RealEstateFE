@@ -1,0 +1,152 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/home"> <i class="bi bi-amd ms-2"></i> My App</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul
+        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+        style="--bs-scroll-height: 100px"
+      >
+        <li class="nav-item active" *ngFor="let item of menu">
+          <a
+            class="nav-link"
+            [routerLink]="[item.link]"
+            routerLinkActive="active"
+            >{{ item.label }}</a
+          >
+        </li>
+      </ul>
+      <div class="d-flex">
+        <div *ngIf="isUserAuthenticated && user" class="text-light me-2">
+          <i class="pi pi-user"></i>Hi, {{ user.username }}!
+        </div>
+        <a *ngIf="!isUserAuthenticated" type="button" [routerLink]="['login']" 
+          class="btn btn-sm btn-success m-2">
+          <i class="pi pi-arrow-right"></i> Login
+        </a>
+
+        <button *ngIf="isUserAuthenticated" type="button" 
+          class="btn btn-sm btn-danger" (click)="logout()">
+          <i class="pi pi-power-off"></i> Logout
+        </button>
+      </div>
+    </div>
+  </div>
+</nav> -->
+
+<header id="header" class="nav-down">
+  <nav class="nav_mn">
+      <div class="min_wrap">
+          <a style="float: left;margin-top: 4px;" title="Bất động sản Online"
+              href="https://batdongsanonline.vn"><img alt="Bất động sản Online" class="logo_mobile_res"
+                  src="https://batdongsanonline.vn//imgs/logo220_1.png" width="220" height="1"
+                  style="width: 220px;height:auto"> </a>
+          <ul class="ul_mn clearfix">
+              <li class="menu-item ">
+                  <a style="padding:0px 10px!important;" href="#">Nhà đất bán</a>
+                  <ul class="mn_child_01">
+                      <li><a href="https://batdongsanonline.vn/mua-ban-dat/">Bán đất</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/mua-ban-nha/">Bán nhà</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/mua-ban-biet-thu/">Bán biệt thự</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/ban-can-ho-chung-cu/">Bán chung cư</a></li>
+
+                  </ul>
+
+              </li>
+
+              <li class="menu-item ">
+                  <a style="padding:0px 10px!important;" href="#">Nhà đất cho thuê</a>
+                  <ul class="mn_child_01">
+                      <li><a href="https://batdongsanonline.vn/cho-thue-biet-thu/">Thuê Biệt thự</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/cho-thue-nha/">Thuê Nhà</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/cho-thue-mat-bang/">Thuê mặt bằng</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/cho-thue-can-ho-chung-cu/">Thuê Chung cư</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/cho-thue-phong-tro/">Thuê Phòng Trọ</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/cho-thue-van-phong/">Thuê Văn phòng</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/cho-thue-nha-xuong/">Thuê Nhà xưởng</a></li>
+
+                  </ul>
+
+              </li>
+
+              <li class="menu-item ">
+                  <a style="padding:0px 10px!important;" href="https://batdongsanonline.vn/du-an/">Dự án</a>
+                  <ul class="mn_child_01">
+                      <li><a href="https://batdongsanonline.vn/du-an-bat-dong-san/?trangthai=3">Dự án hoàn
+                              thiện</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/du-an-bat-dong-san/?trangthai=1">Đang mở bán</a>
+                      </li>
+
+                      <li><a href="https://batdongsanonline.vn/du-an-bat-dong-san/?trangthai=0">Sắp mở bán</a>
+                      </li>
+
+                  </ul>
+
+              </li>
+
+              <li class="menu-item ">
+                  <a style="padding:0px 10px!important;" href="https://batdongsanonline.vn/goc-chia-se/">Blog</a>
+                  <ul class="mn_child_01">
+                      <li><a href="https://batdongsanonline.vn/tin-tuc/">Tin tức</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/kinh-nghiem/">Kinh nghiệm</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/nguoi-noi-tieng/">Người nổi tiếng</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/xem-phong-thuy/">Xem phong thủy</a></li>
+
+                      <li><a href="https://batdongsanonline.vn/kien-truc-nha-dep/">Kiến trúc - nhà đẹp</a></li>
+
+                  </ul>
+
+              </li>
+
+              <li class="menu-item ">
+                  <a style="padding:0px 10px!important;" href="https://batdongsanonline.vn/tuyen-dung/">Tuyển
+                      dụng</a>
+
+              </li>
+
+              <li style="float: right;">
+                  <a style="line-height: 33px;    padding: 2px 5px !important; "
+                      class="btn  v1 w-100 p-0 pl-3 pr-3" href="dang-tin-bat-dong-san/">Đăng Tin </a>
+              </li>
+              <li style="float: right" class="dropdown">
+                  <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-toggle="dropdown"
+                      href="#" role="button" aria-haspopup="false" aria-expanded="false">Tài khoản</a>
+                  <div class="DropRight dropdown-menu dropdown-menu-end">
+                      <div class="g-0">
+                          <a class="dropdown-item notify-item BtnLoginForm" href="javascript:;" data-fancybox=""
+                              data-type="ajax"
+                              data-src="/users/login/?nv_redirect=rQuI1zgWA9nc36NCJsedWpca-L71w2OC9Mp_RhLorN4,&amp;popup=1"><i
+                                  class="fa fa-sign-in"></i> Đăng nhập </a>
+                          <a class="dropdown-item notify-item"
+                              href="/users/register/?nv_redirect=rQuI1zgWA9nc36NCJsedWpca-L71w2OC9Mp_RhLorN4,"><i
+                                  class="fa fa-user"></i> Đăng ký</a>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+</header>
