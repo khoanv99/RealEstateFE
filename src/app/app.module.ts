@@ -26,6 +26,9 @@ import { AuthInterceptor } from './interceptor/authen.interceptor';
 import { AccessDeniedComponent } from './features/access-denied/access-denied.component';
 import { BookInventoryHistoryComponent } from './features/books/book-inventory-history/book-inventory-history.component';
 import { DialogModule } from 'primeng/dialog';
+import { ProductInfoComponent } from './features/product-info/product-info.component';
+import { ProductInfoDetailComponent } from './features/product-info-detail/product-info-detail.component';
+import { FooterComponent } from './features/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +45,9 @@ import { DialogModule } from 'primeng/dialog';
     LoginComponent,
     AccessDeniedComponent,
     BookInventoryHistoryComponent,
+    ProductInfoComponent,
+    ProductInfoDetailComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
