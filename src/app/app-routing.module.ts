@@ -8,6 +8,7 @@ import { AuthGuard } from './services/auth.guard';
 import { CreateBookComponent } from './features/books/create-book/create-book.component';
 import { UpdateBookComponent } from './features/books/update-book/update-book.component';
 import { ViewBookComponent } from './features/books/view-book/view-book.component';
+import { NavbarComponent } from './features/navbar/navbar.component';
 
 const routes: Routes = [
   {
