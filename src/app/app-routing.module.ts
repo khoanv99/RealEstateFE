@@ -8,6 +8,7 @@ import { AuthGuard } from './services/auth.guard';
 import { CreateBookComponent } from './features/books/create-book/create-book.component';
 import { UpdateBookComponent } from './features/books/update-book/update-book.component';
 import { ViewBookComponent } from './features/books/view-book/view-book.component';
+import { ChatSystemComponent } from './features/chat-system/chat-system.component';
 
 const routes: Routes = [
   {
@@ -18,7 +19,10 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent,
   },
-  
+  {
+    path: 'chat',
+    component: ChatSystemComponent,
+  },
   // Books.
   {
     path: 'books',

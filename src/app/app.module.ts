@@ -29,6 +29,7 @@ import { DialogModule } from 'primeng/dialog';
 import { ProductInfoComponent } from './features/product-info/product-info.component';
 import { ProductInfoDetailComponent } from './features/product-info-detail/product-info-detail.component';
 import { FooterComponent } from './features/footer/footer.component';
+import { ChatSystemComponent } from './features/chat-system/chat-system.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,6 +49,7 @@ import { FooterComponent } from './features/footer/footer.component';
     ProductInfoComponent,
     ProductInfoDetailComponent,
     FooterComponent,
+    ChatSystemComponent,
   ],
   imports: [
     BrowserModule,
